@@ -18,4 +18,8 @@ public class ArithmaticManager {
     public func subtract<T: Numeric>(first: T, second: T) -> T {
         first - second
     }
+    
+    public static func add<T: Numeric>(first: T, second: T) -> T {
+        first + second
+    }
 }
