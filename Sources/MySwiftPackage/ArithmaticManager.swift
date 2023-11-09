@@ -9,6 +9,8 @@ import Foundation
 
 public class ArithmaticManager {
     
+    public init() {}
+    
     public func add<T: Numeric>(first: T, second: T) -> T {
         first + second
     }
